@@ -1,0 +1,61 @@
+form h5,
+form h5 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: var(--m-5);
+}
+
+.form-group span,
+.input-pair span {
+  display: none;
+}
+
+.form-group {
+  width: var(--w-100);
+  text-align: left;
+  padding: 10px 0;
+}
+
+form input,
+form textarea {
+  position: relative;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #282a2e;
+  border-radius: 3px;
+  outline: none;
+  -webkit-transition: all 200ms linear;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form_container_max_width {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 16px 0 16px;
+}
+
+form input:focus,
+form input:active {
+  border-color: var(--medium-grey)
+}
+
+/* --- form error --- */
+
+form .validate_error span {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  border: 0;
+  transition: all 0.2s linear;
+  text-align: left;
+}
+
+form .validate_error input,
+form .validate_error textarea {
+  background: rgb(192 80 80 / 57%) !important;
+  border: 1px solid #ec4846 !important;
+}

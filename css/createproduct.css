@@ -1,0 +1,3 @@
+#create_product .form-group:nth-child(6) input {
+  border: 1px solid #ffffff;
+}
